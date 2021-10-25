@@ -18,10 +18,10 @@ The goal of this project is to design api endpoints of a simple blog web stites 
 - **POST** /user/logout/ - need Authorization token in the header like, Token authorizationtoken to logout a user
 
 - **POST** - /article/add/ - need Authorization token in the header like, Token authorizationtoken, title and description in the body to add an article
-- **POST** - /article/ - to retrive all the available article
-- **POST** - /article/<id>/ - to retrive a specific article
-- **POST** - /article/update/<id>/ - need Authorization token in the header like, Token authorizationtoken, title and description in the body to update an article
-- **POST** - /article/delete/<id>/ - need Authorization token in the header like, Token authorizationtoken, title and description in the body to delete an article
+- **GET** - /article/ - to retrive all the available article
+- **GET** - /article/id/ - to retrive a specific article
+- **PUT** - /article/update/id/ - need Authorization token in the header like, Token authorizationtoken, title and description in the body to update an article
+- **DELETE** - /article/delete/id/ - need Authorization token in the header like, Token authorizationtoken, title and description in the body to delete an article
 
 
 
